@@ -1,4 +1,4 @@
-const sonarqubeScanner = require('sonarqube-scanner.bat');
+const sonarqubeScanner = require('sonarqube-scanner');
      sonarqubeScanner({
        serverUrl: 'http://192.168.56.102:9000',
        options : {
